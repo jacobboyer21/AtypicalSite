@@ -1,0 +1,88 @@
+body {
+	max-width: 940px;
+	font-family: arial;
+	background-color: rgb(184,184,184,0.9);
+}
+
+#containerwrap {
+	position: relative;
+	top: 30px;
+	height: 200px;
+}
+
+#containerwrap .row {
+	padding-top: 50px;
+}
+
+#header {
+	position: relative;
+	text-align: center;
+	color: #aaa;
+	background-color: black;
+}
+
+
+
+h1 {
+	top: -30px;;
+	position: relative;
+}
+
+h1:hover:before {
+	content: "A";
+}
+
+h1:hover:after {
+	content: " Day";
+}
+
+a, a:hover {
+	color: #aaa;
+	text-decoration: none;
+}
+
+#links {
+	display: none; /*remove to show menu*/
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	font-family: inherit;
+	
+}
+
+#d {
+	transform: rotate(-90deg);
+	top: 14px;
+	font-size: 140%;
+	left: 1px;
+}
+
+#a {
+	transform: rotate(180deg);
+	top: -22px;
+	font-size: 150%;
+	
+}
+
+#d, #a {
+	position: relative;	
+}
+
+#secondblock {
+	display: none;
+	text-align: center;	
+}
+
+#second {
+	display: none;
+	background-color: black;
+	color: #aaa;
+}
+
+
+
+
+
+
+
+
